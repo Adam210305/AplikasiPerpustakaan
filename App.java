@@ -11,7 +11,7 @@ public class App {
     static int HitungBukuBaru = 0;
 
     public static void main(String[] args) throws Exception {
-        ArrayList<DataBuku> ListBuku = new ArrayList<DataBuku>();
+        ArrayList<VariabelDataBuku> ListBuku = new ArrayList<VariabelDataBuku>();
         int menu = 1;
 
         do {
@@ -34,7 +34,7 @@ public class App {
                 System.out.print("Tahun: ");
                 int tahun = Integer.parseInt(inputan.readLine());
 
-                ListBuku.add(new DataBuku(judul, pengarang, penerbit, kategori, tahun));
+                ListBuku.add(new VariabelDataBuku(judul, pengarang, penerbit, kategori, tahun));
 
                 HitungKategori(kategori);
 
