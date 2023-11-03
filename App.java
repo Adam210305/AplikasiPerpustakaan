@@ -68,12 +68,12 @@ public class App {
         System.out.println("4. Lainnya");
     }
 
-    public static void MenampilkanDataBuku(ArrayList<DataBuku> booklist) {
+    public static void MenampilkanDataBuku(ArrayList<VariabelDataBuku> booklist) {
         System.out.println("====================================================================");
         System.out.println("No\t\tJudul\t\tPengarang\t\tPenerbit\t\tTahun\t\tKategori");
         System.out.println("====================================================================");
         int No = 0;
-        for (DataBuku TabelBuku : booklist) {
+        for (VariabelDataBuku TabelBuku : booklist) {
             String Indeks = App.KategoriBuku(TabelBuku.Kategori);
             System.out.println(++No + "\t\t" + TabelBuku.Judul + "\t\t" + TabelBuku.Pengarang + "\t\t" + TabelBuku.Penerbit + "\t\t" + TabelBuku.Tahun + "\t\t" + Indeks);
         }
