@@ -4,7 +4,7 @@ public class VariabelDataBuku {
     String Penerbit;
     int Kategori;
     int Tahun;
-    public DataBuku(String Judul, String Pengarang, String Penerbit, int Kategori, int Tahun) {
+    public VariabelDataBuku(String Judul, String Pengarang, String Penerbit, int Kategori, int Tahun) {
         this.Judul = Judul;
         this.Pengarang = Pengarang;
         this.Penerbit = Penerbit;
